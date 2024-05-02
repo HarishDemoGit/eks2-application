@@ -26,7 +26,7 @@ public class MainController {
 
     @GetMapping("/call-eks1")
     public String callEks1() {
-        String url = "http://eks1-service.default.svc.cluster.local:8085/eks1/user";
+        String url = "http://172.20.18.180:8085/eks1/user";
         return restTemplate.getForObject(url, String.class);
     }
 }
