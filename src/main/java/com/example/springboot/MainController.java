@@ -19,6 +19,11 @@ public class MainController {
         return "HI THIS IS EKS2!";
     }
 
+    @GetMapping("/test")
+    public String demo() {
+        return "Hello, testing success";
+    }
+
     @PostMapping("/post")
     public String sample_01(String name) {
         return "hi I AM EKS2";
