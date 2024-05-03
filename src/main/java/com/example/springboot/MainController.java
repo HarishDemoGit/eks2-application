@@ -24,10 +24,10 @@ public class MainController {
         return "Hello, testing success";
     }
 
-    @PostMapping("/post")
-    public String sample_01(String name) {
-        return "hi I AM EKS2";
-    }
+//    @PostMapping("/post")
+//    public String sample_01(String name) {
+//        return "hi I AM EKS2";
+//    }
 
     @GetMapping("/call-eks1")
     public String callEks1() {
